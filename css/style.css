@@ -107,6 +107,7 @@ header .container_icon{
     position: absolute;
     top: 0;
     right: -105%;
+    display: none;
     width: 102.5%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
@@ -115,6 +116,7 @@ header .container_icon{
 }
 header .container_icon.active{
     right: 0;
+    display: block;
 }
 header .container_icon nav,
 header .container_icon .cart_container,
