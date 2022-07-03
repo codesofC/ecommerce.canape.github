@@ -124,6 +124,7 @@ header .container_icon .user_container{
     position: absolute;
     top: 0;
     right: -100%;
+    display: none;
     padding: 1rem;
     background-color: var(--white-color);
     transition: right .5s ease-in;
@@ -132,6 +133,7 @@ header .container_icon.active nav.active,
 header .container_icon.active .cart_container.active,
 header .container_icon.active .user_container.active{
     right: 0;
+    display: block;
 }
 header .container_icon .cancel{
     width: 100%;
@@ -629,9 +631,6 @@ header .container_icon .cart_container .cart{
 
 
 @media (max-width:800px){
-    body{
-        overflow: hidden;
-    }
     .icon_menu .search_icon{
         display: inline-block;
     }
