@@ -13,6 +13,7 @@
 }
 
 body{
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     min-height: 100vh;
@@ -108,10 +109,9 @@ header .container_icon{
     top: 0;
     right: -105%;
     display: none;
-    width: 102.5%;
+    width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
-    z-index: 100;
     transition: right .5s ease-in;
 }
 header .container_icon.active{
@@ -136,6 +136,7 @@ header .container_icon.active .cart_container.active,
 header .container_icon.active .user_container.active{
     right: 0;
     display: block;
+    z-index: 100;
 }
 header .container_icon .cancel{
     width: 100%;
