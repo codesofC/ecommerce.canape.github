@@ -629,6 +629,9 @@ header .container_icon .cart_container .cart{
 
 
 @media (max-width:800px){
+    body{
+        overflow: hidden;
+    }
     .icon_menu .search_icon{
         display: inline-block;
     }
